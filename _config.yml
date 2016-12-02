@@ -1,0 +1,24 @@
+baseurl: ""
+url: "http://upakovka.ocheredklientov.com"
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - README.md
+  - gulpfile.js
+  - deploy
+  - deploy-key.enc
+  - deploy-key
+
+title: "Упаковка тренеров"
+description: "Приведу вам клиентов без риска"
+keywords: "тренер, коуч, психолог, реклама, маркетинг, лендинг, инфобизнес"
+author: "Николай Воробьёв"
+
+permalink: /:title/
+
+#vk_app_id: 0
+yandex_metrika: 41162294 # upakovka.ocheredklientov.com
+google_analytics: UA-46456269-30 # upakovka.ocheredklientov.com
+facebook_pixel_id: 1064201373633710
+vk_retarget_url: '//vk.com/rtrg?r=xRf8hVMDoPx2OsczdRmJTvIDEbv6RSpxlMDEEamYdkjz1ajkLcire6*gesgaPKxFa5It9/WdQg4KLcCBUIPHp3t3FMHeSRBA79el9gvq8Adey0k0Ol2AEZVQt*CIqpqVo5EflQJ1tY8bTl2dQ8E9/leMpvxAKmUxCgqqvLoLrk4-&pixel_id=1000047074'

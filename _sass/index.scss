@@ -1,0 +1,148 @@
+@import 'bootstrap-variables';
+
+body {
+  font-size: 18px;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  @media (max-width: $screen-xs-max) {
+    h1 {
+      font-size: 24px;
+    }
+    .p-x-lg {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+  }
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1,.h1 {
+  font-size: 42px;
+}
+h2,.h2 {
+  font-size: 36px;
+}
+h3,.h3 {
+  font-size: 30px;
+}
+h4,.h4 {
+  font-size: 24px;
+}
+h5,.h5 {
+  font-size: 18px;
+}
+h6,.h6 {
+  font-size: 14px;
+}
+
+@media (max-width: $screen-xs-max) {
+  h1,.h1 {
+    font-size: 36px;
+  }
+  h2,.h2 {
+    font-size: 30px;
+  }
+  h3,.h3 {
+    font-size: 24px;
+  }
+}
+
+.b-head {
+  background: #efefef url(../images/b_main.jpg) bottom right no-repeat;
+  background-size: 60%;
+  min-height: 700px;
+
+  h1 {
+    font-weight: 700;
+    font-size: 42px;
+
+    @media (max-width: $screen-xs-max) {
+      font-size: 28px;
+    }
+  }
+
+  h4 {
+    font-weight: normal;
+  }
+}
+
+.b-me {
+  background: #efefef url(../images/b_main.jpg) bottom right no-repeat;
+  background-size: 50%;  
+
+  @media (max-width: $screen-xs-max) {
+    background-size: 100%;
+    padding-bottom: 75%; //240px
+  }
+
+  &__sign {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    right: 70px;
+    bottom: 45px;
+
+    @media (max-width: 768px) {
+      right: 20px;
+      bottom: 20px;
+    }
+  }
+}
+
+.b-odd, .b-footer {
+  background-color: #efefef;
+}
+
+.btn {
+  white-space: normal;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+
+.frame {
+  border: solid #ccc 5px;
+}
+
+.form-well {
+  background: white;
+  padding: 20px;
+}
+
+blockquote {
+  background: #efefef;
+  padding: 30px;
+}
+
+.b-what__number {
+  font-size: 150px;
+  color: #E4E4E4;
+  font-weight: 900;
+}
+
+.b-what__quote {
+  font-family: 'Helvetica Light', 'Helvetica';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+
+  border: 16px solid transparent;
+
+  -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+  border-image: linear-gradient(to bottom right, #3acfd5 0%, #3a4ed5 100%);
+
+  border-image-slice: 1;
+}
+
+.carousel-item-inner {
+  padding: 20px 15% 60px;
+}
