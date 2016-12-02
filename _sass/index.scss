@@ -117,9 +117,10 @@ h6,.h6 {
   padding: 20px;
 }
 
-blockquote {
+.b-why__quote {
   background: #efefef;
   padding: 30px;
+  margin-top: 20px;
 }
 
 .b-what__number {
@@ -143,6 +144,26 @@ blockquote {
   border-image-slice: 1;
 }
 
+.b-decision__number {
+  font-size: 72px;
+  color: #E4E4E4;
+  font-weight: 900;
+  float: left;
+  margin-left: -80px;
+  line-height: 1;
+
+  @media (max-width: $screen-sm-max) {
+    display: none;
+  }
+}
+
 .carousel-item-inner {
   padding: 20px 15% 60px;
+}
+
+.featured-list-bordered {
+  p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
