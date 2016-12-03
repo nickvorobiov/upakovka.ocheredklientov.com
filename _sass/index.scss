@@ -144,19 +144,6 @@ h6,.h6 {
   border-image-slice: 1;
 }
 
-.b-decision__number {
-  font-size: 72px;
-  color: #E4E4E4;
-  font-weight: 900;
-  float: left;
-  margin-left: -80px;
-  line-height: 1;
-
-  @media (max-width: $screen-sm-max) {
-    display: none;
-  }
-}
-
 .carousel-item-inner {
   padding: 20px 15% 60px;
 }
@@ -165,5 +152,59 @@ h6,.h6 {
   p {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+}
+
+
+.b-result {
+  &__row {
+  }
+
+  &__number {
+    font-size: 72px;
+    color: #E4E4E4;
+    font-weight: 900;
+    line-height: 1;
+    text-align: right;
+
+    @media (max-width: $screen-sm-max) {
+      display: none;
+    }
+  }
+
+  &__result {
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  &__text {
+  }
+
+  @media (min-width: $screen-sm-min) {
+    &__row {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: hidden;
+
+      > div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+      }
+    }
+    &__number {
+      max-width: 10%;
+    }
+
+    &__result {
+      max-width: 45%;
+    }
+
+    &__text {
+      max-width: 45%;
+    }
   }
 }
