@@ -144,6 +144,10 @@ h6,.h6 {
   font-style: normal;
   font-size: 28px;
 
+  @media (max-width: $screen-xs-max) {
+    font-size: 22px;
+  }
+
   border: 16px solid transparent;
 
   -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
