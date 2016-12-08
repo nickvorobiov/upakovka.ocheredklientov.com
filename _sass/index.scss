@@ -129,6 +129,15 @@ h6,.h6 {
   font-weight: 900;
 }
 
+.b-what-shot__number, .b-result-shot__number {
+  font-size: 72px;
+  color: #E4E4E4;
+  font-weight: 900;
+  line-height: 1;
+  position: absolute;
+  margin: -15px 0 0 -50px;
+}
+
 .b-what__quote {
   font-family: 'Helvetica Light', 'Helvetica';
   font-weight: 300;
@@ -206,5 +215,12 @@ h6,.h6 {
     &__text {
       max-width: 45%;
     }
+  }
+}
+
+.lead, .block .lead {
+  font-size: 27px;
+  @media (max-width: $screen-xs-max) {
+    font-size: 18px;
   }
 }
